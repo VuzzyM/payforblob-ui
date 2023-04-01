@@ -5,7 +5,7 @@ Guide:
 
 1. **Clone this repository**
 
-git clone https://github.com/VuzzyM/payforblob-ui.git
+```git clone https://github.com/VuzzyM/payforblob-ui.git```
 
 
 2. **Install bash file with permission to execute.**
