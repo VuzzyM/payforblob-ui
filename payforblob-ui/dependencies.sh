@@ -9,6 +9,3 @@ fi
 # Install Flask & other dependencies
 sudo apt-get install -y python3-pip
 pip3 install flask requests
-
-
-
