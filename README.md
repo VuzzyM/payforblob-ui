@@ -45,6 +45,8 @@ Guide:
 
 ![7](https://user-images.githubusercontent.com/66425682/229291853-2228d4a3-d382-4d0b-be10-50c3a9c07ba1.png)
 
+Now, exit the screen session by pressing CTRL + A + D
+
 7. **Start a lynx cli browser with my localhost ip address server.**
 
 ```lynx 127.0.0.1:5000```
