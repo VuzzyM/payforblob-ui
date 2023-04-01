@@ -13,7 +13,7 @@ chmod +x dependencies.sh
 
 3. **Install dependencies to run payforblob-ui.py.**
 
-./install.sh
+./dependencies.sh
 
 4. **Run payforblob-ui.py in payforblob-ui directory.**
 
