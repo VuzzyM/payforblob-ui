@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>results</title>
+    <style>
+      body {
+        background-color: rgba(222, 200, 255, 0.5);
+        font-family: Arial, sans-serif;
+        color: #333;
+      }
+
+      h1 {
+        color: #6a5acd;
+        font-size: 36px;
+      }
+
+      p {
+        font-size: 18px;
+        margin: 10px 0;
+      }
+
+      strong {
+        font-weight: bold;
+      }
+
+      input[type="submit"] {
+        background-color: #6a5acd;
+        border: none;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #4b0082;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>payforblob transaction is submitted.</h1>
+	
+    <p><strong>Namespace_id:</strong> {{ n_id }}</p>
+    <p><strong>Data value:</strong> {{ msg }}</p>
+    <p><strong>Block height:</strong> {{ height }}</p>
+    <p><strong>Namespace_id shares by block height:</strong> {{ share_msg }}</p>
+    <p><strong>Node signer address:</strong> {{ signer }}</p>
+	
+    <form action="/" method="get">
+        <input type="submit" value="Generate New ID">
+    </form>
+  </body>
+</html>

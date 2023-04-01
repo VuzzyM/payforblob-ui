@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Payforblob transaction with random namespace_id generator</title>
+    <style>
+      body {
+        background-color: #f2e6ff;
+        color: #444444;
+        font-family: Arial, sans-serif;
+      }
+      h1 {
+        color: #794fff;
+        text-align: center;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+      }
+      label {
+        font-size: 20px;
+        margin-bottom: 20px;
+        color: #794fff;
+      }
+      input {
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 20px;
+      }
+      button {
+        padding: 10px 20px;
+        font-size: 20px;
+        background-color: #794fff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #9966ff;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>PayForPlob transaction with random namespace_id generator</h1>
+    {% if message %}
+	
+        <p style="color: red">{{ message }}</p>
+		
+    {% endif %}
+    <form method="POST" action="{{ url_for('submit') }}">
+	
+       <label for="password">Enter Password:</label>
+       <input type="password" id="password" name="password">
+	  
+      <br>
+      <button type="submit">Generate random namespace_id and send payforblob</button>
+    </form>
+  </body>
+</html>
