@@ -45,13 +45,13 @@ Guide:
 
 ![7](https://user-images.githubusercontent.com/66425682/229291853-2228d4a3-d382-4d0b-be10-50c3a9c07ba1.png)
 
-7. **Start a lynx cli browser with my localhost server**
+7. **Start a lynx cli browser with my localhost ip address server**
 
 ```lynx 127.0.0.1:5000```
 
 ![8](https://user-images.githubusercontent.com/66425682/229291866-50d527f1-e72f-45fe-9d81-839061ee29dd.png)
 
-6. **Enter the local IP address in web tab of lynx browser and insert password created by you**
+6. **Insert password created by you**
 
 ![9](https://user-images.githubusercontent.com/66425682/229291879-80486b63-8c09-4263-afd7-3a91583a7058.png)
 
