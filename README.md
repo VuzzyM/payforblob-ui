@@ -9,7 +9,7 @@ git clone https://github.com/VuzzyM/payforblob-ui.git
 
 2. **Install bash file with permission to execute.**
 
-chmod +x install.sh
+chmod +x dependencies.sh
 
 3. **Install dependencies to run payforblob-ui.py.**
 
