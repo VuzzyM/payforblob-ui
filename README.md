@@ -10,17 +10,17 @@ git clone https://github.com/VuzzyM/payforblob-ui.git
 
 2. **Install bash file with permission to execute.**
 
-chmod +x dependencies.sh
+```chmod +x dependencies.sh```
 
 
 3. **Install dependencies to run payforblob-ui.py.**
 
-./dependencies.sh
+```./dependencies.sh```
 
 
 4. **Run payforblob-ui.py in payforblob-ui directory.**
 
-python3 payforblob-ui.py
+```python3 payforblob-ui.py```
 
 
 5. **Create a password to protect against other people sending payforblob transactions to your VPS.**
